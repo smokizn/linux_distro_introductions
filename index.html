@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LINUX // DISTRO ARCHIVE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- Noise -->
+    <div class="noise"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">
+            <span class="blink">_</span>LINUX<span class="dim">/ARCHIVE</span>
+        </div>
+
+        <div class="nav-counter">
+            <span id="current">01</span>
+            <span class="dim">/</span>
+            <span class="dim">05</span>
+        </div>
+    </nav>
+
+
+    <!-- Side Navigation -->
+
+    <div class="side-nav">
+
+        <button class="side-item active" data-target="arch">
+            <span>01</span>
+            <b>ARCH</b>
+        </button>
+
+        <button class="side-item" data-target="blackarch">
+            <span>02</span>
+            <b>BLACKARCH</b>
+        </button>
+
+        <button class="side-item" data-target="gentoo">
+            <span>03</span>
+            <b>GENTOO</b>
+        </button>
+
+        <button class="side-item" data-target="void">
+            <span>04</span>
+            <b>VOID</b>
+        </button>
+
+        <button class="side-item" data-target="nixos">
+            <span>05</span>
+            <b>NIXOS</b>
+        </button>
+
+    </div>
+
+
+    <main>
+
+        <!-- ================= ARCH ================= -->
+
+        <section
+            class="distro arch active"
+            id="arch"
+            data-index="01"
+        >
+
+            <div class="grid"></div>
+
+            <div class="orb"></div>
+
+            <div class="content">
+
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    DISTRO_01 // ROLLING
+                </div>
+
+                <h1 data-text="ARCH">
+                    ARCH
+                </h1>
+
+                <p class="tagline">
+                    KEEP IT SIMPLE.<br>
+                    <span>KEEP IT YOURS.</span>
+                </p>
+
+                <p class="description">
+                    A lightweight and flexible Linux distribution
+                    designed around simplicity, user control,
+                    and bleeding-edge software.
+                </p>
+
+                <div class="terminal">
+
+                    <div class="terminal-head">
+                        <span>●</span>
+                        <span>●</span>
+                        <span>●</span>
+
+                        <label>user@arch ~</label>
+                    </div>
+
+                    <div class="terminal-body">
+
+                        <div>
+                            <span class="prompt">➜</span>
+                            <span class="cmd">neofetch</span>
+                        </div>
+
+                        <div class="terminal-output">
+
+                            <strong>OS</strong>
+                            Arch Linux<br>
+
+                            <strong>KERNEL</strong>
+                            Linux x86_64<br>
+
+                            <strong>PKG</strong>
+                            pacman<br>
+
+                            <strong>INIT</strong>
+                            systemd<br>
+
+                            <strong>PHIL</strong>
+                            KISS
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stats">
+
+                    <div>
+                        <span>PACKAGE</span>
+                        <strong>PACMAN</strong>
+                    </div>
+
+                    <div>
+                        <span>RELEASE</span>
+                        <strong>ROLLING</strong>
+                    </div>
+
+                    <div>
+                        <span>INIT</span>
+                        <strong>SYSTEMD</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="distro-number">
+                01
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= BLACKARCH ================= -->
+
+        <section
+            class="distro blackarch"
+            id="blackarch"
+            data-index="02"
+        >
+
+            <div class="grid"></div>
+
+            <div class="scanlines"></div>
+
+            <div class="content">
+
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    SECURITY_02 // PENETRATION
+                </div>
+
+                <h1 data-text="BLACKARCH">
+                    BLACK<span>ARCH</span>
+                </h1>
+
+                <p class="tagline">
+                    BREAK SYSTEMS.<br>
+                    <span>UNDERSTAND THEM.</span>
+                </p>
+
+                <p class="description">
+                    A penetration-testing distribution based on Arch Linux,
+                    packed with hundreds of tools for security researchers,
+                    red teams and curious hackers.
+                </p>
+
+
+                <div class="hack-box">
+
+                    <div class="hack-header">
+                        <span>BLACKARCH // TOOLKIT</span>
+                        <span>ROOT@TARGET</span>
+                    </div>
+
+                    <div class="hack-lines">
+
+                        <div>
+                            <span>01</span>
+                            INFORMATION GATHERING
+                            <b>██████████</b>
+                        </div>
+
+                        <div>
+                            <span>02</span>
+                            EXPLOITATION
+                            <b>████████</b>
+                        </div>
+
+                        <div>
+                            <span>03</span>
+                            FORENSICS
+                            <b>██████</b>
+                        </div>
+
+                        <div>
+                            <span>04</span>
+                            WIRELESS
+                            <b>█████████</b>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stats">
+
+                    <div>
+                        <span>BASE</span>
+                        <strong>ARCH</strong>
+                    </div>
+
+                    <div>
+                        <span>FOCUS</span>
+                        <strong>SECURITY</strong>
+                    </div>
+
+                    <div>
+                        <span>TOOLS</span>
+                        <strong>1000+</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="distro-number">
+                02
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= GENTOO ================= -->
+
+        <section
+            class="distro gentoo"
+            id="gentoo"
+            data-index="03"
+        >
+
+            <div class="grid"></div>
+
+            <div class="content">
+
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    SOURCE_03 // COMPILE
+                </div>
+
+                <h1 data-text="GENTOO">
+                    GENTOO
+                </h1>
+
+                <p class="tagline">
+                    YOUR SYSTEM.<br>
+                    <span>YOUR RULES.</span>
+                </p>
+
+                <p class="description">
+                    A source-based distribution where software
+                    is built specifically for your machine,
+                    giving you extreme control over the system.
+                </p>
+
+
+                <div class="compile">
+
+                    <div class="compile-title">
+                        COMPILING SYSTEM...
+                    </div>
+
+                    <div class="progress">
+
+                        <div class="progress-bar"></div>
+
+                    </div>
+
+                    <div class="compile-info">
+
+                        <span>
+                            gcc
+                        </span>
+
+                        <span>
+                            USE_FLAGS
+                        </span>
+
+                        <span>
+                            CFLAGS
+                        </span>
+
+                        <span>
+                            OPTIMIZED
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stats">
+
+                    <div>
+                        <span>PACKAGE</span>
+                        <strong>PORTAGE</strong>
+                    </div>
+
+                    <div>
+                        <span>MODEL</span>
+                        <strong>SOURCE</strong>
+                    </div>
+
+                    <div>
+                        <span>CONTROL</span>
+                        <strong>MAXIMUM</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="distro-number">
+                03
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= VOID ================= -->
+
+        <section
+            class="distro void"
+            id="void"
+            data-index="04"
+        >
+
+            <div class="void-particles"></div>
+
+            <div class="content">
+
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    INDEPENDENT_04 // MINIMAL
+                </div>
+
+                <h1 data-text="VOID">
+                    VOID
+                </h1>
+
+                <p class="tagline">
+                    NO SYSTEMD.<br>
+                    <span>NO BLOAT.</span>
+                </p>
+
+                <p class="description">
+                    An independent Linux distribution built
+                    from scratch with simplicity, speed,
+                    and the runit init system at its core.
+                </p>
+
+
+                <div class="void-terminal">
+
+                    <div class="void-line">
+                        <span>$</span>
+                        sv status
+                    </div>
+
+                    <div class="void-services">
+
+                        <div>
+                            <i></i>
+                            dbus
+                            <span>run</span>
+                        </div>
+
+                        <div>
+                            <i></i>
+                            NetworkManager
+                            <span>run</span>
+                        </div>
+
+                        <div>
+                            <i></i>
+                            sshd
+                            <span>run</span>
+                        </div>
+
+                        <div>
+                            <i></i>
+                            elogind
+                            <span>run</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stats">
+
+                    <div>
+                        <span>PACKAGE</span>
+                        <strong>XBPS</strong>
+                    </div>
+
+                    <div>
+                        <span>INIT</span>
+                        <strong>RUNIT</strong>
+                    </div>
+
+                    <div>
+                        <span>BASE</span>
+                        <strong>INDEPENDENT</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="distro-number">
+                04
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= NIXOS ================= -->
+
+        <section
+            class="distro nixos"
+            id="nixos"
+            data-index="05"
+        >
+
+            <div class="grid"></div>
+
+            <div class="content">
+
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    DECLARATIVE_05 // REPRODUCIBLE
+                </div>
+
+                <h1 data-text="NIXOS">
+                    NIX<span>OS</span>
+                </h1>
+
+                <p class="tagline">
+                    CONFIGURE ONCE.<br>
+                    <span>REBUILD FOREVER.</span>
+                </p>
+
+                <p class="description">
+                    A declarative Linux distribution where
+                    your entire system can be described as code,
+                    reproduced, rolled back and shared.
+                </p>
+
+
+                <div class="flake">
+
+                    <div class="flake-top">
+                        flake.nix
+                    </div>
+
+                    <pre><code><span class="purple">{
+  description</span> = <span class="green">"my system"</span>;
+
+  <span class="purple">inputs</span>.nixpkgs.url =
+    <span class="green">"github:NixOS/nixpkgs"</span>;
+
+  <span class="purple">outputs</span> = { self, nixpkgs }:
+    {
+      <span class="purple">nixosConfigurations</span>.main =
+        nixpkgs.lib.nixosSystem {
+          system = <span class="green">"x86_64-linux"</span>;
+        };
+    };
+<span class="purple">}</span></code></pre>
+
+                </div>
+
+
+                <div class="stats">
+
+                    <div>
+                        <span>PACKAGE</span>
+                        <strong>NIX</strong>
+                    </div>
+
+                    <div>
+                        <span>MODEL</span>
+                        <strong>DECLARATIVE</strong>
+                    </div>
+
+                    <div>
+                        <span>FEATURE</span>
+                        <strong>ROLLBACK</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="distro-number">
+                05
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <div class="scroll-indicator">
+        <span>SCROLL TO EXPLORE</span>
+        <div></div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
